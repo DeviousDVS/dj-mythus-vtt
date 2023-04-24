@@ -21,5 +21,7 @@ Hooks.once("init", async function () {
 preloadHandlebarsTemplates();
 
 async function preloadHandlebarsTemplates() {
-    const templatePaths = ["systems/dj-mythus/templates/actor/hp-sheet.html"];
+    const templatePaths = [
+        "systems/dj-mythus/templates/actor/HeroicPersonaSheet.html",
+    ];
 }
