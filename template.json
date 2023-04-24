@@ -1,0 +1,218 @@
+{
+    "Actor": {
+        "types": ["hp", "op", "mp"],
+        "templates": {
+            "common": {
+                "name": {
+                    "name": "Name",
+                    "value": ""
+                },
+                "characteristics": {
+                    "mental": {
+                        "name": "Mental",
+                        "el": {
+                            "name": "EL",
+                            "description": "Effect Level"
+                        },
+                        "mnemonic": {
+                            "name": "Mnemonic",
+                            "mmcap": {
+                                "name": "MMCap",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "mmpow": {
+                                "name": "MMPow",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "mmspd": {
+                                "name": "MMSpd",
+                                "value": 10,
+                                "min": 0
+                            }
+                        },
+                        "reasoning": {
+                            "name": "Reasoning",
+                            "mrcap": {
+                                "name": "MRCap",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "mrpow": {
+                                "name": "MRPow",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "mrspd": {
+                                "name": "MRSpd",
+                                "value": 10,
+                                "min": 0
+                            }
+                        }
+                    },
+                    "physical": {
+                        "name": "Physical",
+                        "rl": {
+                            "name": "RL",
+                            "description": "Recovery Level"
+                        },
+                        "wl": {
+                            "name": "WL",
+                            "description": "Wound Level"
+                        },
+                        "cl": {
+                            "name": "CL",
+                            "description": "Critical Level"
+                        },
+                        "muscular": {
+                            "name": "Muscular",
+                            "pmcap": {
+                                "name": "PMCap",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "pmpow": {
+                                "name": "PMPow",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "pmspd": {
+                                "name": "PMSpd",
+                                "value": 10,
+                                "min": 0
+                            }
+                        },
+                        "neural": {
+                            "name": "Neural",
+                            "pncap": {
+                                "name": "PNCap",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "pnpow": {
+                                "name": "PNPow",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "pnspd": {
+                                "name": "PNSpd",
+                                "value": 10,
+                                "min": 0
+                            }
+                        }
+                    },
+                    "spiritual": {
+                        "name": "Spiritual",
+                        "el": {
+                            "name": "EL",
+                            "description": "Effect Level"
+                        },
+                        "metaphysical": {
+                            "name": "Metaphysical",
+                            "smcap": {
+                                "name": "SMCap",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "smpow": {
+                                "name": "SMPow",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "smspd": {
+                                "name": "SMSpd",
+                                "value": 10,
+                                "min": 0
+                            }
+                        },
+                        "psychic": {
+                            "name": "Psychic",
+                            "spcap": {
+                                "name": "SPCap",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "sppow": {
+                                "name": "SPPow",
+                                "value": 10,
+                                "min": 0
+                            },
+                            "spspd": {
+                                "name": "SPSpd",
+                                "value": 10,
+                                "min": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "hp": {
+            "templates": ["common"],
+            "vocation": {
+                "name": "Vocation",
+                "value": ""
+            },
+            "sec": {
+                "name": "SEC",
+                "value": 1,
+                "min": 1,
+                "max": 9
+            },
+            "aps": {
+                "name": "Unallocated APs",
+                "value": 0,
+                "min": 0
+            },
+            "joss": {
+                "name": "Joss",
+                "value": 0,
+                "min": 0
+            },
+            "general-info": {
+                "physical-description": {
+                    "age": "",
+                    "sex": "",
+                    "race": "",
+                    "complexion": "",
+                    "attractiveness": "",
+                    "height": "",
+                    "weight": "",
+                    "build": "",
+                    "eyes": "",
+                    "hair": "",
+                    "other": ""
+                },
+                "general-personalitly": {
+                    "personality": "",
+                    "quirks": [],
+                    "counter-quirks": [],
+                    "quote": ""
+                },
+                "background": {
+                    "brief": "",
+                    "birth": {
+                        "date": "",
+                        "place": "",
+                        "rank": ""
+                    },
+                    "citizenship": "",
+                    "connections": []
+                }
+            }
+        }
+    },
+    "Item": {
+        "types": [
+            "weapon",
+            "armor",
+            "shield",
+            "accessory",
+            "consumable",
+            "misc"
+        ],
+        "weapon": {},
+        "armor": {}
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "dj-mythus",
+    "title": "Dangerous Journeys - Mythus",
+    "description": "A system for playing Gary Gygax's Dangerous Journeys - Mythus game in the Foundry Virtual Tabletop environment.",
+    "version": "0.0.5",
+    "author": "DeviousDVS",
+    "scripts": [],
+    "esmodules": ["dj-mythus.js"],
+    "styles": ["dj-mythus.css"],
+    "packs": [],
+    "languages": [],
+    "socket": true,
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": null,
+    "secondaryTokenAttribute": null,
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "9",
+    "url": "https://github.com/DeviousDVS/dj-mythus-vtt",
+    "manifest": "https://deviousdvs.github.io/dj-mythus-vtt/system.json",
+    "download": "https://github.com/DeviousDVS/dj-mythus-vtt/archive/refs/tags/dj-mythus-vtt-v0.0.5-alpha.zip"
+}
