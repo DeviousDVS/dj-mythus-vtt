@@ -210,9 +210,29 @@
             "shield",
             "accessory",
             "consumable",
-            "misc"
+            "casting"
         ],
         "weapon": {},
-        "armor": {}
+        "armor": {},
+        "casting": {
+            "name": "",
+            "ks-area": "",
+            "grade": 1,
+            "type": "",
+            "time": {
+                "value": 0,
+                "type": ""
+            },
+            "area": {
+                "value": 0,
+                "type": ""
+            },
+            "rd": "",
+            "distance": "",
+            "other": "",
+            "materia-cost": "",
+            "efm": "",
+            "page": 0
+        }
     }
 }
