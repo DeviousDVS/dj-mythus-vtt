@@ -1,0 +1,25 @@
+{
+    "djmythus": {
+        "casting": {
+            "ksarea": "K/S Area",
+            "grade": "Grade",
+            "type": "Type",
+            "time": "Time",
+            "area": "Area",
+            "rd": "R&D",
+            "distance": "Distance",
+            "other": "Other",
+            "materiacost": "Materia Cost",
+            "efm": "E/F/M",
+            "page": "Page"
+        },
+        "castingType": {
+            "eyebite": "Eyebite",
+            "charm": "Charm",
+            "cantrip": "Cantrip",
+            "spell": "Spell",
+            "formula": "Formula",
+            "ritual": "Ritual"
+        }
+    }
+}

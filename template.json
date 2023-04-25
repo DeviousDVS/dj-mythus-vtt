@@ -215,8 +215,7 @@
         "weapon": {},
         "armor": {},
         "casting": {
-            "name": "",
-            "ks-area": "",
+            "ksarea": "KS",
             "grade": 1,
             "type": "",
             "time": {
@@ -230,7 +229,7 @@
             "rd": "",
             "distance": "",
             "other": "",
-            "materia-cost": "",
+            "materiacost": "",
             "efm": "",
             "page": 0
         }

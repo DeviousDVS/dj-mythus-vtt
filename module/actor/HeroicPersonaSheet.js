@@ -3,7 +3,7 @@
  * @extends {ActorSheet}
  */
 
-export default class HeroicPersonaSheet extends ActorSheet {
+export class HeroicPersonaSheet extends ActorSheet {
     get template() {
         return `systems/dj-mythus/templates/actor/HeroicPersonaSheet.html`;
     }
