@@ -3,9 +3,10 @@
  * @extends {ItemSheet}
  */
 
-export class CastingSheet extends ItemSheet {
+export class DJMythusItemSheet extends ItemSheet {
     get template() {
-        return `systems/dj-mythus/templates/item/CastingSheet.html`;
+        console.log(this);
+        return `systems/dj-mythus/templates/item/${this.item.type}-sheet.html`;
     }
 
     // Set item window title

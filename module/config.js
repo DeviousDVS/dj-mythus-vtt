@@ -1,12 +1,12 @@
 export const djmythus = {};
 
 djmythus.castingTypes = {
-    eyebite: "djmythus.castingTypes.eyebite",
-    charm: "djmythus.castingTypes.charm",
-    cantrip: "djmythus.castingTypes.cantrip",
-    spell: "djmythus.castingTypes.spell",
-    formula: "djmythus.castingTypes.formula",
-    ritual: "djmythus.castingTypes.ritual",
+    eyebite: "djmythus.castingType.eyebite",
+    charm: "djmythus.castingType.charm",
+    cantrip: "djmythus.castingType.cantrip",
+    spell: "djmythus.castingType.spell",
+    formula: "djmythus.castingType.formula",
+    ritual: "djmythus.castingType.ritual",
 };
 
 djmythus.casting = {

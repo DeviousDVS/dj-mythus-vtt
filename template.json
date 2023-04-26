@@ -210,27 +210,27 @@
             "shield",
             "accessory",
             "consumable",
-            "casting"
+            "casting",
+            "ksarea"
         ],
         "weapon": {},
         "armor": {},
         "casting": {
-            "ksarea": "KS",
+            "ksarea": "",
             "grade": 1,
-            "type": "",
-            "time": {
-                "value": 0,
-                "type": ""
-            },
-            "area": {
-                "value": 0,
-                "type": ""
-            },
+            "type": "charm",
+            "time": "",
+            "area": "",
             "rd": "",
             "distance": "",
-            "other": "",
-            "materiacost": "",
-            "efm": "",
+            "other": "Nil",
+            "materiacost": "Nil",
+            "efm": "<p>Casting effect, force, and materia go here.<br/></p>",
+            "page": 0
+        },
+        "ksarea": {
+            "description": "<p>Description of K/S Area goes here.<br/></p>",
+            "subareas": [],
             "page": 0
         }
     }

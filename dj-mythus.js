@@ -1,7 +1,7 @@
 // Import actors & items
 import { HeroicPersonaSheet } from "./module/actor/HeroicPersonaSheet.js";
 import { djmythus } from "./module/config.js";
-import { CastingSheet } from "./module/item/CastingSheet.js";
+import { DJMythusItemSheet } from "./module/item/DJMythusItemSheet.js";
 
 /* -------------------------------------------- */
 /*  Foundry VTT Initialization                  */
@@ -23,9 +23,9 @@ Hooks.once("init", async function () {
         types: ["hp"],
         makeDefault: true,
     });
-    Items.registerSheet("djmythus", CastingSheet, {
-        types: ["casting"],
-        makedefault: true,
+    Items.registerSheet("djmythus", DJMythusItemSheet, {
+        types: ["casting", "ksarea"],
+        makeDefault: true,
     });
 });
 

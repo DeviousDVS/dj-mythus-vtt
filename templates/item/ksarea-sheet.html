@@ -16,18 +16,8 @@
             />
         </h1>
     </header>
-    <div>
-        <table>
-            <tr>
-                <td>{{localize "djmythus.casting.ksarea"}}</td>
-                <td>
-                    <input
-                        name="item.system.ksarea"
-                        type="text"
-                        value="{{item.system.ksarea}}"
-                    />
-                </td>
-            </tr>
-        </table>
+    <div class="sheet-content">
+        {{editor item.system.description target="system.description" button=true
+        editable=true}}
     </div>
 </form>

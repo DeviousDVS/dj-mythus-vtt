@@ -1,0 +1,117 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img
+            src="{{item.img}}"
+            data-edit="img"
+            title="{{item.name}}"
+            height="64"
+            width="64"
+        />
+        <h1 class="spell-heading">
+            <input
+                name="name"
+                type="text"
+                value="{{item.name}}"
+                placeholder="{{ localize 'Name' }}"
+            />
+            <select name="system.type">
+                {{#select item.system.type}}
+                    {{#each config.castingTypes as |name type|}}
+                        <option value="{{type}}">{{localize name}}</option>
+                    {{/each}}
+                {{/select}}
+            </select>
+        </h1>
+    </header>
+    <div class="sheet-content">
+        <table class="casting">
+            <tr>
+                <td>{{localize "djmythus.casting.ksarea"}}:</td>
+                <td>
+                    <input
+                        name="system.ksarea"
+                        type="text"
+                        value="{{item.system.ksarea}}"
+                    />
+                </td>
+                <td>{{localize "djmythus.casting.grade"}}:</td>
+                <td>
+                    <input
+                        name="system.grade"
+                        type="text"
+                        value="{{item.system.grade}}"
+                        data-dtype="number"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>{{localize "djmythus.casting.time"}}:</td>
+                <td>
+                    <input
+                        name="system.time"
+                        type="text"
+                        value="{{item.system.time}}"
+                    />
+                </td>
+                <td colspan="2" class="otherheka">Other Heka Costs:</td>
+            </tr>
+            <tr>
+                <td>{{localize "djmythus.casting.area"}}:</td>
+                <td>
+                    <input
+                        name="system.area"
+                        type="text"
+                        value="{{item.system.area}}"
+                    />
+                </td>
+                <td>{{localize "djmythus.casting.rd"}}:</td>
+                <td>
+                    <input
+                        name="system.rd"
+                        type="text"
+                        value="{{item.system.rd}}"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>{{localize "djmythus.casting.distance"}}:</td>
+                <td>
+                    <input
+                        name="system.distance"
+                        type="text"
+                        value="{{item.system.distance}}"
+                    />
+                </td>
+                <td>{{localize "djmythus.casting.other"}}:</td>
+                <td>
+                    <input
+                        name="system.other"
+                        type="text"
+                        value="{{item.system.other}}"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>{{localize "djmythus.casting.materiacost"}}:</td>
+                <td>
+                    <input
+                        name="system.materiacost"
+                        type="text"
+                        value="{{item.system.materiacost}}"
+                    />
+                </td>
+                <td>{{localize "djmythus.casting.page"}}:</td>
+                <td>
+                    <input
+                        name="system.page"
+                        type="text"
+                        value="{{item.system.page}}"
+                        data-dtype="number"
+                    />
+                </td>
+            </tr>
+        </table>
+        <h2>E/F/M:</h2>
+        {{editor item.system.efm target="system.efm" button=true editable=true}}
+    </div>
+</form>
