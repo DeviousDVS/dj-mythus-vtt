@@ -16,8 +16,48 @@
             />
         </h1>
     </header>
-    <div class="sheet-content">
+    <div class="sheet-content ksarea">
+        <table>
+            <tr>
+                <th>Trait</th>
+                <th>Stat 1</th>
+                <th>Stat 2</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="system.trait">
+                        {{#select item.system.trait}} 
+                            {{#each config.characteristic.trait as |name type|}}
+                                <option value="{{type}}">{{localize name}}</option>
+                            {{/each}} 
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <select name="system.stat1">
+                        {{#select item.system.stat1}} 
+                            {{#each config.characteristic.stat as |name type|}}
+                                <option value="{{type}}">{{localize name}}</option>
+                            {{/each}} 
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <select name="system.stat2">
+                        {{#select item.system.stat2}} 
+                            {{#each config.characteristic.stat as |name type|}}
+                                <option value="{{type}}">{{localize name}}</option>
+                            {{/each}} 
+                        {{/select}}
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <h3>Description</h3>
         {{editor item.system.description target="system.description" button=true
         editable=true}}
+        <div>
+            <h3>K/S Subareas</h3>
+        </div>
     </div>
 </form>

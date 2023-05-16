@@ -12,11 +12,6 @@ Hooks.once("init", async function () {
 
     CONFIG.djmythus = djmythus;
 
-    // game.djmythus = {
-    //     // Actor sheets
-    //     HeroicPersonaActor,
-    // };
-
     //On init, we initialise any settings and settings menus and HUD overrides as required.
     Actors.unregisterSheet("core", ActorSheet);
     Actors.registerSheet("djmythus", HeroicPersonaSheet, {

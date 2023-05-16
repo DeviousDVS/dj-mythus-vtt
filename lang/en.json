@@ -20,6 +20,37 @@
             "spell": "Spell",
             "formula": "Formula",
             "ritual": "Ritual"
+        },
+        "characteristic": {
+            "trait": "Trait",
+            "category": "Category",
+            "mental": "Mental",
+            "memory": "Memory",
+            "mmcap": "MMCap",
+            "mmpow": "MMPow",
+            "mmspd": "MMSpd",
+            "reasoning": "Reasoning",
+            "mrcap": "MRCap",
+            "mrpow": "MRPow",
+            "mrspd": "MRSpd",
+            "physical": "Physical",
+            "muscular": "Muscular",
+            "pmcap": "PMCap",
+            "pmpow": "PMPow",
+            "pmspd": "PMSpd",
+            "neural": "Neural",
+            "pncap": "PNCap",
+            "pnpow": "PNPow",
+            "pnspd": "PNSpd",
+            "spiritual": "Spiritual",
+            "metaphysical": "Metaphysical",
+            "smcap": "SMCap",
+            "smpow": "SMPow",
+            "smspd": "SMSpd",
+            "psychic": "Psychic",
+            "spcap": "SPCap",
+            "sppow": "SPPow",
+            "spspd": "SPSpd"
         }
     }
 }

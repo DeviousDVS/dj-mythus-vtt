@@ -230,6 +230,9 @@
         },
         "ksarea": {
             "description": "<p>Description of K/S Area goes here.<br/></p>",
+            "trait": "",
+            "stat1": "",
+            "stat2": "",
             "subareas": [],
             "page": 0
         }

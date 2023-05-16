@@ -37,3 +37,9 @@
     margin: 8px 8px 8px 0px; 
     padding: 1px;
 }
+
+.ksarea select {
+    display: block; 
+    margin: auto;
+    width: calc(100% - 10px);
+}
